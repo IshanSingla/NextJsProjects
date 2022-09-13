@@ -1,6 +1,3 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 
 export default function Home() {
@@ -14,12 +11,12 @@ export default function Home() {
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Wasatch Ski Company</h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">A pair of skis are the ultimate transportation to freedom. Skiing is a dance, and the mountain always leads. You can’t buy happiness, but you can buy a ski pass.</p>
           </div>
-          <Link href="/api/sdhv">
+          <Link href="/products">
             <button className="flex mx-auto mt-5 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Shop Now</button>
           </Link>
         </div>
       </section>
     </div>
+    
   )
-  
 }
