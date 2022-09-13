@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import { useState } from 'react'
-import NavBar from '../components/NavBar'
-import Footer from '../components/Footer'
+import NavBar from '../Components/NavBar'
+import Footer from '../Components/Footer'
 
 function MyApp({ Component, pageProps }) {
 
