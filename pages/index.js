@@ -77,7 +77,7 @@ export default function Home() {
   };
 
   return (
-    <section className="text-white body-font mt-16 mx-4">
+    <section className="text-white body-font mt-2 mx-2">
       {showModal ? (
         <>
           <div className="fixed inset-0 z-10 overflow-y-auto">
@@ -121,16 +121,16 @@ export default function Home() {
             Apply For Github Education Pro
           </h2>
           <div className="flex flex-row items-center justify-center self-center lg:justify-start">
-            <p className="text-lg mb-0 mr-4 bg-blue-500 rounded-sm py-2 px-7">
+            <p className="text-base mb-0 mr-4 bg-blue-500 rounded-sm py-2 px-3 ">
               {isSignedIn ? (
                 "Welcome " + isSignedIn.displayName
               ) : (
                 <button
                   onClick={signIn}
-                  className="text-white flex items-center justify-center bg-blue-500 border-0 py-2 px-8 focus:outline-none  rounded text-lg"
+                  className="text-white flex items-center justify-center bg-blue-500 border-0 py-2 px-3 focus:outline-none  rounded text-base"
                 >
                   <img
-                    className="w-1/12 h-1/12 mr-4"
+                    className="w-1/6  mr-4"
                     src="https://cdn-icons-png.flaticon.com/512/300/300221.png"
                   ></img>
                   <a className="flex row gap-3">Connect With College Mail</a>
