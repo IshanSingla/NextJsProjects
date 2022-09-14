@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+        @apply bg-hero-pattern bg-no-repeat bg-cover backdrop-brightness-50 md:overflow-hidden sm:overflow-scroll;
+    }
+    section{
+        @apply h-screen
+    }
+}
